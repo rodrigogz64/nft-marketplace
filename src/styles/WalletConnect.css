@@ -1,0 +1,164 @@
+.wallet-container {
+  position: relative;
+}
+
+.wallet-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(2, 6, 23, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  color: #94A3B8;
+  padding: 8px 12px;
+  font-family: monospace;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.wallet-icon {
+  font-size: 20px;
+}
+
+.wallet-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  width: 250px;
+  background: #0B1120;
+  border-radius: 16px;
+  padding: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.wallet-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.disconnect-button {
+  background: #DC2626;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.disconnect-button:hover {
+  background: #B91C1C;
+}
+
+
+.menu-header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.network-badge {
+  background: #EC4899;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 14px;
+  display: inline-block;
+  width: fit-content;
+}
+
+.connection-status {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #10B981;
+  font-size: 14px;
+}
+
+.status-dot {
+  width: 6px;
+  height: 6px;
+  background-color: #10B981;
+  border-radius: 50%;
+}
+
+.balance-section {
+  margin: 24px 0;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.network-badge {
+  background: #EC4899;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 14px;
+}
+
+.connection-status {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #10B981;
+  font-size: 14px;
+}
+
+.balance-box {
+  background: rgba(2, 6, 23, 0.6);
+  border-radius: 12px;
+  padding: 16px;
+  margin: 5px 0 24px 0;
+}
+
+.balance-label {
+  color: #94A3B8;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.balance-amount {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.menu-item {
+  background: none;
+  border: none;
+  color: #94A3B8;
+  font-size: 14px;
+  text-align: left;
+  padding: 0;
+  cursor: pointer;
+  transition: color 0.2s;
+  display: flex;
+  align-items: center;
+}
+
+.menu-item:hover {
+  color: white;
+}
+
+.menu-item.disconnect {
+  color: #EF4444;
+}
+
+.menu-item.disconnect:hover {
+  color: #F87171;
+}
